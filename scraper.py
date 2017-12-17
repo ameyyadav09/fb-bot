@@ -7,8 +7,8 @@ expire within an hour, that is why we will be using application access tokens. S
 application only for scraping and use that application ID and use the access token generated for that app which
 will never expire. Once you signup as a developer and create a demo app, you can get your APP ID and APP SECRET
 """
-app_id = "561784384154728"
-app_secret = "fe3686d9f25bd3f892542ae7451b4252"
+app_id = "XXXXXXXXXXXXX"
+app_secret = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 access_token = app_id + "|" + app_secret
 """
 Now we have our access token ready we can now access the facebook API without any interruption. To test it let's try to
